@@ -1,7 +1,7 @@
 body {
   background: #ffffff;
-  color: rgb(0, 0, 0);
   font: 100%/20px helvetica, arial, sans-serif;
+  padding-left: 5px;
 }
 
 canvas {
@@ -69,31 +69,31 @@ nav{
 
 section
 {
-  margin: -220px 230px 5px;
+  margin: -260px 230px 5px;
   color: rgb(19, 18, 18);
   font-size: 18px;
   text-align: center;
-  
+  padding-left: 10px;
+  padding-right: 10px;
   border: 1px solid #333;
   width: 1000px;
   position: absolute;
   
 }
 article{
-  margin: -197px 230px 0;
+  margin: -235px 230px 0;
   color: rgb(19, 18, 18);
   font-size: 18px;
   text-align: justify;
-
+  padding-left: 10px;
+  padding-right: 10px;
   border: 1px solid #333;
   width: 1000px;
   position: absolute;
-  
-
 }
 
 aside{
-  margin: -224px 30px 5px;
+  margin: -265px 30px 5px;
   text-align:right;
   color: rgb(19, 18, 18);
   font-size: 18px;
@@ -104,4 +104,33 @@ footer{
   color: rgb(19, 18, 18);
   font-size: 18px;
   text-align: center;  
+}
+   
+#div1{
+  width:100px;
+  height:100px;
+  border:solid 1px;
+  box-shadow: 10px 10px 10px 5px black;
+}
+  
+ #div2{
+  margin: 150px 0 5px;
+  width:1000px;
+  height:100px;
+  border:solid 1px;
+  border-radius:0px 20px 0px 20px;
+}
+
+#contador{
+  margin: 50px 200px 5px;
+  padding-left: 10px;
+  padding-top: 20px;
+  width:150px;
+  height:50px;
+  border:solid 1px;
+  border-radius:0px 20px 0px 20px;
+}
+
+#video{
+  margin: 0 200px 5px;
 }

@@ -1,12 +1,11 @@
-var request = indexedDB.open("lojinha");
+var request = indexedDB.open("ExemploHTML5");
  request.onupgradeneeded = function()
  {
-  // Se o banco de dados não existir ainda, cria objetos de armazenamento
   var db = request.result;
-  var store = db.createObjectStore("produtos", {keyPath: "codigo"});
+  var store = db.createObjectStore("locadoras", {keyPath: "codigo"});
   var nomeIdx = store.createIndex("porNome", "titulo", {unique: true});
   var fabricanteIdx = store.createIndex("porFabricante", "fabricante");
-  // Populando o banco com alguns produtos
+  
   store.put({codigo: 1,
           nome: "DVD - Batman O Cavaleiro das Trevas - A Trilogia",
        fabricante: "Warner Bros",
