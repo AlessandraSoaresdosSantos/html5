@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+ <head>
+  <meta charset="utf-8">
+  <title>Exemplo de Armazenagem</title>
+ </head>
+ <body>
+   <div id="contador"></div>
+ </body>
+</html>
+<script type="text/javascript">
+ // Verifica se existe suporte ao SessionStorage
+ if(sessionStorage)
+ {
+   if(!sessionStorage.contador) sessionStorage.contador = 0;
+    sessionStorage.contador++;
+    document.getElementById('contador').innerHTML = 'Acesso: '+sessionStorage.contador;
+ }
+</script>

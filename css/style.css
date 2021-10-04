@@ -1,0 +1,107 @@
+body {
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  font: 100%/20px helvetica, arial, sans-serif;
+}
+
+canvas {
+  display: block;
+  height: 100%;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  width: 100%
+}
+
+#control-panel {
+  background: rgba(0,0,0,.75);
+  border: 1px solid #333;
+  left: 20px;
+  padding: 10px 15px;
+  position: absolute;
+  top: 20px;
+  z-index: 2;
+}
+
+p {
+	font-size: 12px;
+  margin: 0 0 5px;
+  
+}
+
+label {
+  font-size: 12px;
+  font-weight: bold;
+}	
+
+button {
+  display: block; 
+  margin: 10px 0 5px;
+}
+
+a {
+  border-bottom: 1px dotted #444;
+  color: rgb(19, 18, 18);
+  font-size: 14px;
+  text-decoration: none;
+  margin: 0px 0px 0px;
+}
+ 
+h1 {
+  text-shadow: 5px 5px 5px #66a2e7;
+}
+
+header{
+  margin: 30px 30px 5px;
+  position: center;
+  color: rgb(19, 18, 18);
+  font-size: 22px;
+  text-align: center;
+}
+
+nav{
+  margin: 30px 30px 5px;
+  color: rgb(19, 18, 18);
+  font-size: 12px;
+}
+
+section
+{
+  margin: -220px 230px 5px;
+  color: rgb(19, 18, 18);
+  font-size: 18px;
+  text-align: center;
+  
+  border: 1px solid #333;
+  width: 1000px;
+  position: absolute;
+  
+}
+article{
+  margin: -197px 230px 0;
+  color: rgb(19, 18, 18);
+  font-size: 18px;
+  text-align: justify;
+
+  border: 1px solid #333;
+  width: 1000px;
+  position: absolute;
+  
+
+}
+
+aside{
+  margin: -224px 30px 5px;
+  text-align:right;
+  color: rgb(19, 18, 18);
+  font-size: 18px;
+}
+
+footer{
+  margin: 130px 30px 5px;
+  color: rgb(19, 18, 18);
+  font-size: 18px;
+  text-align: center;  
+}
